@@ -1,3 +1,9 @@
+markdown: kramdown
 theme: jekyll-theme-cayman
-assets:
-  - custom.css
+
+# Include custom CSS
+sass:
+  style: compressed
+
+include:
+  - assets/css/custom.css
