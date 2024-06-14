@@ -1,5 +1,3 @@
 markdown: kramdown
 theme: jekyll-theme-cayman
 permalink: pretty
-title: [MathWithCode]
-description: [Short description]
