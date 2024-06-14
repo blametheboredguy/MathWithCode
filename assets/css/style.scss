@@ -8,11 +8,15 @@ $dark-header-bg-color-secondary: hsl(25deg, 100%, 38%);
 $section-headings-color: hsl(16deg, 100%, 55%);
 $body-link-color: hsl(4deg, 100%, 55%);
 
-// Header background gradient
-$header-bg-gradient: linear-gradient(to right, $header-bg-color, $header-bg-color-secondary);
+// Define new colors
+$new-color-1: #00FFA1;
+$new-color-2: #262626;
 
-// Dark header background gradient
-$dark-header-bg-gradient: linear-gradient(to right, $dark-header-bg-color, $dark-header-bg-color-secondary);
+// Header background gradient with new colors
+$header-bg-gradient: linear-gradient(to right, $new-color-1, $header-bg-color, $header-bg-color-secondary, $new-color-2);
+
+// Dark header background gradient with new colors
+$dark-header-bg-gradient: linear-gradient(to right, $new-color-1, $dark-header-bg-color, $dark-header-bg-color-secondary, $new-color-2);
 
 // Example usage
 .header {
@@ -23,10 +27,26 @@ $dark-header-bg-gradient: linear-gradient(to right, $dark-header-bg-color, $dark
   background: $dark-header-bg-gradient;
 }
 
-// You can also use gradients for section headings or body links if needed
+// Section headings gradient
+$section-headings-gradient: linear-gradient(to right, $section-headings-color, $new-color-1);
+
+// Body links gradient
+$body-link-gradient: linear-gradient(to right, $body-link-color, $new-color-2);
+
 .section-heading {
-  background: linear-gradient(to right, $section-headings-color, $body-link-color);
+  background: $section-headings-gradient;
 }
+
+.body-link {
+  background: $body-link-gradient;
+}
+
+
+
+
+
+
+
 
 
 
