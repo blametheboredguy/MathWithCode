@@ -1,9 +1,7 @@
 markdown: kramdown
 theme: jekyll-theme-cayman
-
-# Include custom CSS
-sass:
-  style: compressed
-
-include:
-  - assets/css/custom.css
+permalink: pretty
+color:
+  header: "#000"
+  gradient_left: "#e53935"
+  gradient_right: "#f57c00"
