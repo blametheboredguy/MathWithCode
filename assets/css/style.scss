@@ -1,59 +1,14 @@
 ---
 ---
 
-$header-bg-color: hsl(4deg, 100%, 45%);
-$header-bg-color-secondary: hsl(25deg, 100%, 45%);
-$dark-header-bg-color: hsl(4deg, 100%, 38%);
-$dark-header-bg-color-secondary: hsl(25deg, 100%, 38%);
-$section-headings-color: hsl(16deg, 100%, 55%);
-$body-link-color: hsl(4deg, 100%, 55%);
-
-// Define new colors
-$new-color-1: #00FFA1;
-$new-color-2: #262626;
-
-// Header background gradient with new colors
-$header-bg-gradient: linear-gradient(to right, $new-color-1, $header-bg-color, $header-bg-color-secondary, $new-color-2);
-
-// Dark header background gradient with new colors
-$dark-header-bg-gradient: linear-gradient(to right, $new-color-1, $dark-header-bg-color, $dark-header-bg-color-secondary, $new-color-2);
-
-// Example usage
-.header {
-  background: $header-bg-gradient;
-}
-
-.dark-header {
-  background: $dark-header-bg-gradient;
-}
-
-// Section headings gradient
-$section-headings-gradient: linear-gradient(to right, $section-headings-color, $new-color-1);
-
-// Body links gradient
-$body-link-gradient: linear-gradient(to right, $body-link-color, $new-color-2);
-
-.section-heading {
-  background: $section-headings-gradient;
-}
-
-.body-link {
-  background: $body-link-gradient;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 @import "{{ site.theme }}";
+
+.page-header {
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  background-color: rgba(255, 255, 255, 1);
+  background-image: linear-gradient(120deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
 
 .page-header {
   padding: 10px 20px; /* Adjust padding to make the header smaller */
