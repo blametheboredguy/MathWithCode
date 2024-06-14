@@ -1,4 +1,4 @@
-# Let's talk about Metropolis-Hastings.
+# Let's talk about Metropolis-Hastings
 
 ## Why do we need it?
 
