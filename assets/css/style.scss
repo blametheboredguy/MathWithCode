@@ -21,7 +21,9 @@ $body-link-color: hsl(4deg, 100%, 55%);
 }
 
 .page-header {
-  display: none; // Add this line to hide the header
+  height: 50px; // Adjust this value to make the header smaller
+  padding: 10px; // Adjust this value to control the padding inside the header
+  font-size: 14px; // Adjust this value to control the font size of the header text
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,7 +35,9 @@ $body-link-color: hsl(4deg, 100%, 55%);
   .page-header {
     background-color: $dark-header-bg-color;
     background-image: linear-gradient(120deg, $dark-header-bg-color-secondary, $dark-header-bg-color);
-    display: none; // Add this line to hide the header in dark mode
+    height: 50px; // Adjust this value to make the header smaller in dark mode
+    padding: 10px; // Adjust this value to control the padding inside the header in dark mode
+    font-size: 14px; // Adjust this value to control the font size of the header text in dark mode
   }
   
   .btn {
