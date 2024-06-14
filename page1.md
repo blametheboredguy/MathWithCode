@@ -1,5 +1,5 @@
-# Page 1
+# Let's talk about Metropolis-Hastings.
 
-This is the content of Page 1.
+Today we try to make sense of this algorithm, which is just a random number generator basically.
 
 - [Home](index.md)
