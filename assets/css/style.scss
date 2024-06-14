@@ -12,6 +12,11 @@ $body-link-color: hsl(4deg, 100%, 55%);
 
 @import "{{ site.theme }}";
 
+.page-header {
+  padding: 10px 20px; /* Adjust padding to make the header smaller */
+  height: auto; /* Adjust height as necessary, or remove if height is defined elsewhere */
+}
+
 .btn {
   color: rgba(255, 255, 255, 0.9);
 }
@@ -29,6 +34,7 @@ $body-link-color: hsl(4deg, 100%, 55%);
   .page-header {
     background-color: $dark-header-bg-color;
     background-image: linear-gradient(120deg, $dark-header-bg-color-secondary, $dark-header-bg-color);
+    padding: 10px 20px; /* Adjust padding for dark mode as well */
   }
   
   .btn {
