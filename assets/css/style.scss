@@ -1,6 +1,38 @@
 ---
 ---
 
+$header-bg-color: hsl(4deg, 100%, 45%);
+$header-bg-color-secondary: hsl(25deg, 100%, 45%);
+$dark-header-bg-color: hsl(4deg, 100%, 38%);
+$dark-header-bg-color-secondary: hsl(25deg, 100%, 38%);
+$section-headings-color: hsl(16deg, 100%, 55%);
+$body-link-color: hsl(4deg, 100%, 55%);
+
+// Header background gradient
+$header-bg-gradient: linear-gradient(to right, $header-bg-color, $header-bg-color-secondary);
+
+// Dark header background gradient
+$dark-header-bg-gradient: linear-gradient(to right, $dark-header-bg-color, $dark-header-bg-color-secondary);
+
+// Example usage
+.header {
+  background: $header-bg-gradient;
+}
+
+.dark-header {
+  background: $dark-header-bg-gradient;
+}
+
+// You can also use gradients for section headings or body links if needed
+.section-heading {
+  background: linear-gradient(to right, $section-headings-color, $body-link-color);
+}
+
+
+
+
+
+
 @import "{{ site.theme }}";
 
 .page-header {
