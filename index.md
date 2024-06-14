@@ -1,6 +1,6 @@
 ## Homepage
 
-You can access all pages from here.
+You can read all my posts here!
 
 - [Let's talk about Metropolis-Hastings.](page1.md)
 - [Page 2 (still empty!)](page2.md)
