@@ -2,3 +2,5 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 permalink: pretty
 title: MathWithCode
+github:
+  is_project_page: false
